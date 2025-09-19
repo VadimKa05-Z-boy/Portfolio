@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <nav class="header__menu hidden-mobile">
+                <ul class="header__menu-list ">
+                    <li class="header__menu-item">
+                        <a href="#about-me" class="header__menu-link">
+                            Обо мне
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#skils" class="header__menu-link">
+                            Скилы
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#project" class="header__menu-link">
+                            Проекты
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#contacts" class="header__menu-link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button 
+                class="header__burger-menu burger-button visible-mobile"
+                type="button"
+                onclick="mobileOverlay.showModal()"
+            >
+                <span class="visually-hidden">Open navigation menu</span>
+            </button>
+        </div>
+    </header>
+    <main class="content">
+        <section class="section container">
+            <div class="section__body">
+                <div class="hero">
+                        <div class="hero__body">
+                            <button 
+                                class="button-placebo"  
+                                type="button"
+                            >
+                                Frontend
+                            </button>
+                            <button 
+                                class="button-placebo"  
+                                type="button"
+                            >
+                                My resume
+                            </button>
+                        </div>
+                        <div class="hero__box">
+                            <h2 class="hero__body-titel">
+                                Yuor<br/> 
+                                new<br>
+                                develope
+                            </h2>
+                            <div class="hero__name">
+                                <p>Сосков Вадим</p>
+                            </div>
+                            <div class="hero__Hi">
+                                <p>Hi 👋, I'm</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container">
+            <div class="section__body">
+                <div class="about-me" id="about-me">
+                    <div class="about-me__header">
+                        <button 
+                            class="button-placebo--dark"
+                            type="button"
+                        >
+                            About me
+                        </button>
+                        <button 
+                            class="button-placebo--dark"
+                            type="button"
+                        >
+                            Information
+                        </button>
+                    </div>
+                    <h2 class="about-me__titel">
+                        Обо Мне
+                    </h2>
+                    <div class="about-me__iformation">
+                        <div class="about-me__list">
+                            <div class="about-me__education-item">
+                                <h3>Учусть в одном из лучших вузов страны - "МГТУ им.Баумана"</h3>
+                            </div>
+                            <img 
+                                src="" 
+                                alt="" 
+                                class="about-me__list--image"
+                                width="" height="" loading="lazy"
+                            />
+                        </div>
+                    </div>
+                    <div class="about-me__iformation">
+                        <h2 class="visually-hidden">Блок описывающий навыки</h2>
+                        <div class="about-me__list" id="skils">
+                            <div class="about-me__skils">
+                                <h3>Навыки</h3>
+                            </div>
+                            <div class="about-me__html">
+                                <h4>Владею НТML</h4>
+                            </div>
+                            <div class="about-me__scss">
+                                <h4>Владею CSS/SCSS</h4>
+                            </div>
+                            <div class="about-me__ghost"></div>
+                            <div class="about-me__bem">
+                                <h4>Владею знаниями БЭМ-метадологии</h4>
+                            </div>
+                            <div class="about-me__js">
+                                <h4>Узучаю JavaScript</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-me__iformation">
+                        <div class="about-me__list">
+                            <div class="about-me__ghost--small">
+                            </div>
+                            <div class="about-me__experience">
+                                <h4>
+                                    Прошел </br>
+                                    эксплуатационную практику </br>
+                                    в DD Planet</br>
+                                </h4>
+                                <span>Июнь 2025</span>
+                                <div class="about-me__experience--mark">
+                                    <p>I got 9/10 </p>
+                                </div>
+                                <div class="about-me__experience--Hi">
+                                    <p>Cool</p>
+                                </div>
+                            </div>
+                            <div class="about-me__experience--titel">
+                                <h3>
+                                    Опыт
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container">
+            <div class="section__body">
+                <div class="plus-side">
+                    <div class="plus-side__header gray-background">
+                        <button 
+                            class="button-placebo--dark"
+                            type="button"
+                        >
+                            Why me?
+                        </button>
+                        <button 
+                            class="button-placebo--dark"
+                            type="button"
+                        >
+                            Information
+                        </button>
+                    </div>
+                    <div class="plus-side__titel gray-background">
+                        <h2>Почему я?</h2>
+                    </div>
+                    <div class="plus-side__list">
+
+                        <div class="plus-side__item plus-block">
+                            <h3>01</h3>
+                            <div class="plus-block--gray">
+                                <div class="plus-block--blue">
+                                    <p>High motivation</p>
+                                </div>
+                                <div class="plus-block--glass">
+                                    <p>is available</p>
+                                </div>
+                            </div>
+                            <h3>Высоко мотиворованный и готовый к получению опыта</h3>
+                        </div>
+                        <div class="plus-side__item plus-block item-blue">
+                            <h3>02</h3>
+                            <div class="plus-block--gray" type="button">
+                                <div class="plus-block--acent">
+                                    <p>Fresh look</p>
+                                </div>
+                                <div class="plus-block--light">
+                                    <p>at the tasks</p>
+                                </div>
+                            </div>
+                            <h3>Свежий взгляд на процессы </h3>
+                        </div>
+                        <div class="plus-side__item plus-block item-acent">
+                            <h3>03</h3>
+                            <div class="plus-block--gray" type="button">
+                                <div class="plus-block--dark">
+                                    <p>Flexible</p>
+                                </div>
+                                <div class="plus-block--light">
+                                    <p>and inspired</p>
+                                </div>
+                            </div>
+                            <h3>Гибкий и готовый к решинию проблем в процессе</h3>
+                        </div>
+                        <div class="plus-side__item plus-block item-black">
+                            <h3>04</h3>
+                            <div class="plus-block--gray" type="button">
+                                <div class="plus-block--blue">
+                                    <p>Novelty</p>
+                                </div>
+                                <div class="plus-block--light">
+                                    <p>and experience</p>
+                                </div>
+                            </div>
+                            <h3>Свежие знания и отличное знание основ</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container">
+            <div class="section__body">
+                <h2 class="quete quete-style">
+                    <q>
+                        <div class="quete__item--firs">Мы не можем делать</div>
+                        <div class="quete__item--second">великие дела</div>
+                        <div>- только<br> малые дела</div> 
+                        <div>с великой любовью</div>
+                    </q>
+                </h2>
+                
+            </div>
+        </section>
+        <section class="section container">
+            <div class="section__header" id="project">
+                <button 
+                    class="button-placebo--dark"
+                    type="button"
+                >
+                    My projects
+                </button>
+                <button 
+                    class="button-placebo--dark"
+                    type="button"
+                >
+                    2+
+                </button>
+            </div>
+            <div class="section__body">
+                <div class="projects">
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            <h2 class="project__titel">
+                                Port</br>folio
+                            </h2>
+                            <a href="/" class="projects__link">
+                                <span>More...</span>
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <h2 class="project__titel">
+                                Sten</br>cil
+                            </h2>
+                            <a href="/" class="projects__link">
+                                <span>More...</span>
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="projects__item">
+                            <h2 class="project__titel">
+                                More Projects
+                            </h2>
+                            <a href="/" class="projects__link">
+                                <span>More...</span>
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section container">        
+            <div class="section__body ">
+                <div class="section-contacts section-contacts">
+                    <div class="section__header" id="contacts">
+                        <button 
+                            class="button-placebo"
+                            type="button"
+                        >
+                            Social Media
+                        </button>
+                        <button 
+                            class="button-placebo"
+                            type="button"
+                        >
+                            Information
+                        </button>
+                    </div>
+                    <div class="contacts__titel">
+                        <h2>Контакты</h2>
+                    </div>
+                </div>
+                <div class="section__body">
+                    <div class="contacts">
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807613 11.9792 0.807613 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM2 13.5L22 13.5L22 10.5L2 10.5L2 13.5Z" fill="white"/>
+                                </svg>
+                                <a href="https://t.me/Vadim_ka5" target="_blank" class="contacts__name">/ Telegram</a>
+                            </li>
+                            <li class="contacts__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807613 11.9792 0.807613 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM2 13.5L22 13.5L22 10.5L2 10.5L2 13.5Z" fill="white"/>
+                                </svg>
+                                <a href="https://vk.com/id238464397" target="_blank" class="contacts__name">/ Вконтакте</a>
+                            </li>
+                            <li class="contacts__item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807613 11.9792 0.807613 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM2 13.5L22 13.5L22 10.5L2 10.5L2 13.5Z" fill="white"/>
+                                </svg>
+                                <a href="https://max.ru/u/f9LHodD0cOLZOXkHdUcto3YU0ePDnca5cOJEH349t2yG7QFlmXvbOQax_U8" target="_blank" class="contacts__name">/ Max</a>
+                            </li>
+                        </ul>
+                        <div class="contacts__mail mail">
+                            <span>почта</span>
+                            <a href="mailto:soskov2005@internet.ru?subject=Резюме&body=Мы%20посмотрели%20Ваше%20резюме%20и%20готовы%20сообщить..." 
+                            class="mail--span"
+                            >
+                                <span><b>soskov2005@internet.ru</b></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form class="mobile-overlay__close-button-wrapper" method="dialog">
+            <button
+                class="mobile-overlay__close-button cross-button"
+                type="submit"
+            >
+                    <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="mobile-overplay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link">
+                        Обо мне
+                    </a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link">
+                        Скилы
+                    </a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link">
+                        Проекты
+                    </a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+</body>
+</html>

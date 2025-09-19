@@ -1,0 +1,58 @@
+@use '../media';
+
+.plus-side{
+    background-color: lightgray;
+    border-radius: 30px ;
+    padding-block: 20px;
+    margin-bottom: 190px;
+
+    &__header{
+        padding-inline: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__titel{
+        padding-inline: 20px;
+        color: var(--color-blue);
+        height: auto;
+        min-height: 300px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        h2{
+            margin: 0;
+            text-transform:uppercase;
+            font-size: clamp(70px,20vw,200px);
+        }
+
+        &::after{
+            content:'';
+            position: absolute;
+            width:300px;
+            height: 300px;
+            background-image: url(../../image/header.png);
+            background-size: cover;
+            background-position: center;
+            vertical-align: middle;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            @include media.tablet{
+                width: clamp(30vw,60vw,389px);
+                height: clamp(30vw,60vw,327px);
+                top: 70%;
+            }
+        }
+    }
+    
+    div,h3{
+        margin: 0;
+    }
+
+    &__list{
+        position: relative;
+    }
+}

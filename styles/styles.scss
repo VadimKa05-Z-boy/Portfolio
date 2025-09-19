@@ -1,0 +1,20 @@
+@use 'normalize';
+@use 'fonts';
+@use 'mixins';
+@use 'media';
+@use 'variables';
+@use 'utils';
+@use 'globals';
+
+@use 'blocks/button';
+@use 'blocks/burger_button';
+@use 'blocks/header';
+@use 'blocks/cross-button';
+@use 'blocks/_mobile-overlay';
+@use 'blocks/hero';
+@use 'blocks/about-me';
+@use 'blocks/plus-side';
+@use 'blocks/plus-block';
+@use 'blocks/quete-style';
+@use 'blocks/projects';
+@use 'blocks/contacts';

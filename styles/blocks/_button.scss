@@ -1,0 +1,38 @@
+@use '../mixins' as *;
+
+.button{
+    &-placebo{
+        @include flex-center(true);
+
+        height: var(--button-height);
+        padding-inline: 35px;
+        font-size: 16px;
+        color: var(--color-light);
+        background-color: transparent;
+        border: var(--border-light);
+        border-radius: var(--border-radius);
+
+        &--dark{
+            @include flex-center(true);
+
+            height: var(--button-height);
+            padding-inline: 35px;
+            font-size: 16px;
+            color: var(--color-dark);
+            background-color: transparent;
+            border: var(--border-dark);
+            border-radius: var(--border-radius);
+            
+            @include hover{
+                background-color: var(--color-acent);
+            }
+        }
+
+        @include hover{
+            color: var(--color-light);
+            background-color: var(--color-blue);
+        }
+
+    }
+
+}

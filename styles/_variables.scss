@@ -1,0 +1,21 @@
+:root{
+    --color-dark: #131313;
+    --color-light: #F7F7F7;
+    --color-acent: #D2FF52;
+    --color-blue: #1C46F5;
+
+    --border-light: 1px solid var(--color-light);
+    --border-dark: 1px solid  var(--color-dark);
+    --border-radius: 50px;
+
+    --font-family-base: 'Space Grotesk', sans-serif;
+
+    --container-width: 1280px;
+    --container-padding-x:20px;
+
+    --section-padding-y: 100px;
+
+    --button-height: 28px;
+
+    --transition-duration: 0.2s;
+} 

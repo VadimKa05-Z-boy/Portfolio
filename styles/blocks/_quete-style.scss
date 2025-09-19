@@ -1,0 +1,24 @@
+@use '../media';
+
+.quete{
+    color: var(--color-blue);
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+
+    &__item{
+        position: relative;
+        &--first{
+            position: relative;
+        }
+        &--second{
+            position: relative;
+            left: 32.5%;
+        }
+    }
+
+    @include media.tablet{
+        font-size: clamp(70px,40vw,90px);
+    }
+}
+
