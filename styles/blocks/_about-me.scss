@@ -45,7 +45,7 @@
              &::before{
                 content: '';
                 position: absolute;
-                background-image: url(../../image/BMSTU.png);
+                background-image: url(../image/BMSTU.png);
                 background-size: cover;
                 background-position: center;
                 vertical-align: middle;
@@ -93,7 +93,7 @@
                 width: clamp(160px, 23vw, 300px);
                 height: clamp(160px, 26vw, 300px);
                 position: absolute;
-                background-image: url(../../image/header.png);
+                background-image: url(../image/header.png);
                 background-size: cover;
                 background-repeat: no-repeat; 
                 background-position: center; 
@@ -221,7 +221,7 @@
             position: absolute;
             width: clamp(150px,40vw,400px);
             height: clamp(150px,40vw,400px);
-            background-image: url(../../image/cup-Photoroom.png);
+            background-image: url(../image/cup-Photoroom.png);
             background-repeat: no-repeat;
             background-size: cover;
             vertical-align: middle;
