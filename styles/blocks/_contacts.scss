@@ -1,4 +1,5 @@
 @use '../mixins';
+@use '../media';
 
 .contacts{
     background-color: var(--color-light);
@@ -19,7 +20,13 @@
             padding-block: 0;
             padding-inline: 20px;
             margin: 0;
+
+            @include media.mobile {
+                font-size: 50px;
+                font-weight: 500; 
+            }
         }
+
     }
 
     &__list{
@@ -54,6 +61,11 @@
         a{
             font-size: 80px;
             font-weight: 600;
+
+            @include media.mobile {
+                font-size: 42px;
+                font-weight: 500; 
+            }
         }
     }
 
@@ -74,6 +86,7 @@
             color: var(--color-blue);
             opacity: 0.7;
         }
+
     }
 
     &__mail{
@@ -104,5 +117,9 @@
 
     span{
         font-size: 32px;
+
+        @include media.mobile {
+            font-size: 20px;
+        }
     }
 }

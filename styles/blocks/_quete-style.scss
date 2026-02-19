@@ -1,4 +1,5 @@
 @use '../media';
+@use '../mixins';
 
 .quete{
     color: var(--color-blue);
@@ -17,8 +18,12 @@
         }
     }
 
-    @include media.tablet{
+    /*@include media.tablet{
         font-size: clamp(70px,40vw,90px);
+    }*/
+
+    @include media.mobile {
+        @include mixins.casper; 
     }
 }
 

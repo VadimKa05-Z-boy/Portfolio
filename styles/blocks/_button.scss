@@ -1,4 +1,5 @@
 @use '../mixins' as *;
+@use '../media';
 
 .button{
     &-placebo{
@@ -33,6 +34,9 @@
             background-color: var(--color-blue);
         }
 
+        @include media.mobile {
+            font-size: 12px;
+        }
     }
 
 }

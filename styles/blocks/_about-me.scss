@@ -9,7 +9,12 @@
     }
 
     &__titel{
-        color: var(--color-blue)
+        color: var(--color-blue);
+
+        
+       @include media.mobile {
+            @include mixins.casper; // Полностью скрывает элемент
+        }
     }
 
     &__information{
@@ -25,7 +30,12 @@
         gap: 20px;
         margin: 20px;
 
-
+        @include media.mobile {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1px;
+            margin: 2px;
+        }
     }
     
     &__education-item{
